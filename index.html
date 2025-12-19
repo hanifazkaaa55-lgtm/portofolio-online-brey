@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Hanif</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">HANZ_ZKA</div>
+
+    <!-- HAMBURGER ICON -->
+    <div class="hamburger" id="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <div class="nav-links" id="nav-links">
+      <a href="#hero" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero">
+    <div class="hero-flex">
+      <!-- FOTO -->
+      <img src="./images/gambar saya kece bener.jpg" alt="Foto Hanif" class="hero-img" />
+
+      <!-- TEKS HERO -->
+      <div class="hero-text">
+        <p class="intro-text">Hello, my name is</p>
+        <h1>HANIF AZKA</h1>
+        <p>
+          Saya adalah seorang programmer yang suka menciptakan solusi melalui kode.
+          Bagi saya, ngoding bukan hanya kerja, tapi cara mengekspresikan ide dan memecahkan masalah.
+          Saya selalu berusaha belajar hal baru, meningkatkan skill, dan membuat karya yang bermanfaat serta mudah digunakan.
+        </p>
+
+        <div class="social-icons">
+                <a href="https://www.instagram.com/hnf_azka33/" target="_blank">INSTAGRAM</a>
+                <a href="https://www.youtube.com/@hanifazkaaa55" target="_blank">youtube</a>
+                <a href="https://wa.me/628902009481" target="_blank">WHATSAPP</a>
+        </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I am a programmer who focuses on building modern and user-friendly web applications. 
+          Besides coding, I also enjoy designing simple and elegant user interfaces.
+        </p>
+        <button type="button" class="lets-talk-button" onclick="openWhatsAppLetsTalk()">Let's Talk!</button>
+      </div>
+      <div class="about-photo">
+        <img src="./images/photo_2025-12-17_17-22-18.jpg" alt="Foto Saya">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="it-projects">
+  <h2>PROJECT IT YG SAYA BUAT</h2>
+
+  <a href="https://hanifazkaaa55-lgtm.github.io/" 
+     target="_blank" 
+     class="it-card">
+     🌐 slicing Project
+  </a>
+  <a href="https://github.com/hanifazkaaa55-lgtm/profile-online" 
+     target="_blank" 
+     class="it-card">
+     🌐 Profile Project
+  </a>
+  <a href="https://github.com/hanifazkaaa55-lgtm/python-online"
+     target="_blank" 
+     class="it-card"><i class="fab fa-python"></i>
+      Python Project
+  </a>
+</section>
+
+
+
+
+  <section id="projects" class="project-page">
+    <h2 class="project-title">Project Saya</h2>
+
+    <div class="photo-section">
+      <div class="photo-card">
+        <img src="./images/poster tahajji.png" alt="Project Foto 1">
+        <p>Ini adalah foto poster tahajji qaidah samiriyah.</p>
+      </div>
+
+      <div class="photo-card">
+        <img src="./images/eyJuYW1lIjoiaGFuaWYgYXprYSBhc3N5YW1pbCIsImNvdXJzZSI6ImFxdWF0aWMiLCJkb25vciI6IkluZm9zeXMgRm91bmRhdGlvbiBVU0EifQ==.jpg" alt="Project Foto 2">
+        <p>Ini adalah foto sertifikat saya.</p>
+      </div>
+    </div>
+
+    <div class="video-content">
+      <h1 class="rata-tengah">VIDEO PROJECT BAHASA ARAB</h1>
+      <div class="video-section">
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/J6_fxs3FvrQ" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/eOuIkGIICe0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/VaA2WAYFqMk" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/1nJwRnFr2Bk?si=QWR33izsCpCCGy0s" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+           <iframe src="https://www.youtube.com/embed/Vj4MPw43lNo?si=Ida21oNdrJFiKlbQ" allowfullscreen></iframe>
+          </div>
+        </div>
+        
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/0ObrIiSNQi8" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <h1>KONTAK SAYA</h1>
+    <form>
+      <input type="text" placeholder="Nama Lengkap" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="5" placeholder="Pesan Anda" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    &copy; 2025 Hanif Azka. All Rights Reserved.
+  </footer>
+
+  <!-- JS HAMBURGER -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
